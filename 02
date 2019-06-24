@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+int soma (int x, int y, int z);
+
+int main() {
+	int x, y, z, resultado;
+	printf ("Informe o valor do primeiro numero: ");
+	scanf("%d", &x);
+	printf ("Informe o valor do sagundo numero: ");
+	scanf("%d", &y);
+	printf ("Informe o valor do terceiro numero: ");
+	scanf("%d", &z);
+	resultado= soma (x,y,z);
+	printf ("O resultado obtido eh: %d", resultado);
+	return 0;
+}
+
+int soma (int x, int y, int z){
+	int resultado= x-y-z;
+	
+	return resultado;
+	
+}
